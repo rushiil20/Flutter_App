@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
                 height: 200,
                 child: RaisedButton(
                   onPressed: () {
-                    print('hi');
+                    print('Hi, Welcome!');
                     AudioCache player = new AudioCache();
                     const alarmAudioPath = 'audio1.ogg';
                     player.play(alarmAudioPath);
